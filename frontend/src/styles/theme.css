@@ -1,0 +1,25 @@
+:root{
+  /* KeMU official colors (approximate) */
+  --kemu-purple: #63053b71; /* official deep purple */
+  --kemu-gold: #c99a2f; /* gold accent */
+  --kemu-blue: #0b4b8a; /* supporting blue */
+  --kemu-white: #ffffff;
+
+  --kemu-bg-gradient: linear-gradient(135deg, var(--kemu-purple) 0%, var(--kemu-blue) 55%, var(--kemu-gold) 100%);
+
+  --text-primary: #1f1f1f;
+  --muted: #5f5f5f;
+}
+
+/* Utility classes */
+.kemu-btn{
+  background: linear-gradient(90deg,var(--kemu-purple),var(--kemu-gold));
+  color: #fff;
+  border: none;
+  padding: .6rem 1rem;
+  border-radius:6px;
+}
+
+.kemu-accent{
+  color:var(--kemu-purple);
+}

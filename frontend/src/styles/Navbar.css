@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 4px solid var(--kemu-gold);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo h1 {
+  color: var(--kemu-purple);
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--kemu-purple);
+  text-decoration: none;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-user .profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nav-user button {
+  background-color: transparent;
+  color: var(--kemu-purple);
+  border: 1px solid var(--kemu-purple);
+  padding: 8px 16px;
+}
+
+.nav-user button:hover {
+  background-color: rgba(201,154,47,0.08);
+}

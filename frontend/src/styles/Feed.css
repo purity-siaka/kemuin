@@ -1,0 +1,103 @@
+.feed-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.post-composer {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post-composer form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-composer textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.post-composer button {
+  align-self: flex-end;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.post-header {
+  padding: 15px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-header h4 {
+  margin: 0 0 4px 0;
+  color: #000;
+}
+
+.post-header p {
+  margin: 0;
+  color: #666;
+  font-size: 12px;
+}
+
+.post-content {
+  padding: 15px 20px;
+  color: #333;
+}
+
+.post-actions {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+}
+
+.post-actions button {
+  flex: 1;
+  background: white;
+  color: #666;
+  border: none;
+  padding: 8px;
+  margin: 0 5px;
+}
+
+.post-actions button:hover {
+  background-color: #f0f0f0;
+  color: #0a66c2;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 30px;
+}

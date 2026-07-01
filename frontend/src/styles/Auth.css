@@ -1,0 +1,114 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--kemu-bg-gradient);
+  padding: 20px;
+}
+
+.auth-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 440px;
+  border-top: 6px solid var(--kemu-gold);
+}
+
+.auth-box h2 {
+  color: var(--kemu-purple);
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--kemu-purple);
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #233;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--kemu-gold);
+  box-shadow: 0 0 0 3px rgba(201,154,47,0.18);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--kemu-purple), var(--kemu-gold));
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-box button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.error-message {
+  background-color: #fff4f4;
+  color: #b94a48;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.auth-success-message {
+  background-color: #effaf3;
+  color: #256029;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 1px solid #c9e6d1;
+}
+
+.auth-box p {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--muted);
+}
+
+.auth-box p a {
+  color: var(--kemu-purple);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-box p a:hover {
+  color: var(--kemu-gold);
+}
